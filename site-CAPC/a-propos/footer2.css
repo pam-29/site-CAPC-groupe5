@@ -1,0 +1,47 @@
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 560px;
+    padding-top: 80px;
+}
+
+.foot1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot1 ul li{
+    list-style: none;
+    font-family: 'Neue', sans-serif;
+    font-weight: 65;
+    margin: 20px;
+    margin-left: -30px;
+    font-size: 30px;
+}
+
+.foot1 h2{
+    font-family: 'Neue', sans-serif;
+    font-weight: 75;
+    font-size: 45px;
+}
+
+.contacts ul li a{
+    color: white;
+}
+
+.contacts ul li a:hover{
+    color: red;
+}
+
+.reseaux{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+
+.reseaux a:hover{
+    opacity: 50%;
+}
