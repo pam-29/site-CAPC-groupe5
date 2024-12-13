@@ -144,9 +144,12 @@ h1, h2 {
     gap: 10px;
 }
 
-.offres div {
-    width: 25%;
+@media (min-width: 680px){
+    .offres div{
+        width: 25%;
+    }
 }
+
 
 .offres img {
     width: 100%;
@@ -191,6 +194,7 @@ h1, h2 {
         width: 100%;
         
     }
+
 
 }
 
