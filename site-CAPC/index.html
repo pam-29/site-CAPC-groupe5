@@ -10,14 +10,25 @@
     <link rel="stylesheet" href="/style/footer.css">
 </head>
 <body>
-    <header> 
-    <!--Menu-->
-    <div class="icon-mobile">
-        <img src="/icone/recherche.svg" alt="">
-        <img src="/icone/burger.svg" alt="">
-        
+   <header id="main-header"> 
 
-    </div>
+        
+    <!--Menu-->
+
+    <nav class="mobile">
+        <button class="button-menu" id="open-menu"><img src="/icone/burger.svg" alt=""></button>
+
+        <ul class="mobile-menu">
+            <li><img src="/icone/croix.svg" id="close-menu"></li>
+            <li><a href="">ACCUEIL</a></li>
+            <li><a href="">EXPOSITIONS</a></li>
+            <li><a href="">COLLECTION</a></li>
+            <li><a href="">AGENDA</a></li>
+            <li><a href="">SERVICES</a></li>
+            <Li><a href="">A PROPOS</a></Li>
+        </ul>
+    </nav>
+
     <div class="logo">
         <h1>CAPC</h1>
         <h2>Musée d'art <br> contemporain <br> de Bordeaux</h2>
@@ -26,13 +37,14 @@
 
         <div class="menu">    
         <nav>
+            
             <ul>
                 <li><a href="">ACCUEIL</a></li>
                 <li><a href="">EXPOSITIONS</a></li>
                 <li><a href="">COLLECTION</a></li>
                 <li><a href="">AGENDA</a></li>
                 <li><a href="">SERVICES</a></li>
-                <Li><a href="/a-propos/a-propos.html">A PROPOS</a></Li>
+                <Li><a href="">A PROPOS</a></Li>
                 <li><a href=""> <div class="bar"></div></a></li>
                 <li>
                     <div class="search">
@@ -177,5 +189,7 @@
             </div>
         
     </footer>
+
+    <script src="/style/js.js"></script>
 </body>
 </html>
